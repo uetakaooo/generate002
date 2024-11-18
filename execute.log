@@ -1,0 +1,10 @@
+2024-10-25 18:33:45,100 - INFO - Processing file: C:\workspace\Tool_GenerateJsonFromDt\decision_tables\decision_table_sample_1.xlsx
+2024-10-25 18:33:45,540 - ERROR - An error occurred while processing C:\workspace\Tool_GenerateJsonFromDt\decision_tables\decision_table_sample_1.xlsx: too many values to unpack (expected 2)
+2024-10-25 18:33:45,540 - ERROR - Traceback (most recent call last):
+  File "c:\workspace\Tool_GenerateJsonFromDt\DecisionTableToJson.py", line 492, in process_file
+    json_objects, creation_logs_json, resErrMsgs = create_json_objects(data)
+  File "c:\workspace\Tool_GenerateJsonFromDt\DecisionTableToJson.py", line 262, in create_json_objects
+    result, msgs = process_column(df, response_params_df, 5, '●', process_row_for_json)
+ValueError: too many values to unpack (expected 2)
+
+2024-10-25 18:33:45,540 - INFO - Successfully processed file: C:\workspace\Tool_GenerateJsonFromDt\decision_tables\decision_table_sample_1.xlsx

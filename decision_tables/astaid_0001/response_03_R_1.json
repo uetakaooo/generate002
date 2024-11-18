@@ -1,0 +1,25 @@
+{
+    "status": "SUCCESS",
+    "result":{
+        "userID": null,
+        "gamenName": "exchange",
+        "A":[],
+        "himozkkouza":[
+            {
+                "kyakC": "",
+                "kyakName": "AAA"
+            },
+            {
+                "kyakC": "002",
+                "kyakName": "BBB",
+                "kyakName2": ""
+            }
+        ],
+        "mainDISPLAY":"<input type=\"hidden\">"
+    },
+    "errors":{
+        "global" : {},
+        "fields" : []
+    }
+
+}
